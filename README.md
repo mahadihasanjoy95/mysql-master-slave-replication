@@ -114,3 +114,5 @@ START SLAVE;
 
 All configuration done, now you can create a database from the master server, but can see the reflection on the slave server. 
 This is the end of master-slave setup.
+
+&copy; Mahadi Hasan Joy
