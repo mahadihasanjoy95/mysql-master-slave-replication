@@ -28,9 +28,9 @@ mysql_secure_installation
 **_NOTE: Just disabling remote login will be No(n) if you want to login remotely from other servers._**
 ## Step 2: Configure Master 
 First, we will configure the master MySQL server and make the following changes:
-[ ] Set the private ip. [you can set *0.0.0.0* if you want access from virtual ip]
-[ ] Set a unique server ID.
-[ ] Enable binary logging.
+[]Set the private ip. [you can set *0.0.0.0* if you want access from virtual ip]
+[]Set a unique server ID.
+[]nable binary logging.
 To do so open the MySQL configuration file and add the following lines in the [mysqld] section:
 ```console
 sudo nano /etc/my.cnf
